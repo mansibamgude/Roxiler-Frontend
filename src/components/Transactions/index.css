@@ -1,0 +1,131 @@
+/* index.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .main-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .first-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .second-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-element {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+    font-size: 16px;
+  }
+  
+  .dropdown-list {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 16px;
+    background: #fff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .product-image {
+    border-radius: 5px;
+  }
+  
+  .last-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .next-button, .previous-button {
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .next-button:hover, .previous-button:hover {
+    text-decoration: underline;
+  }
+  
+  .statistics-container {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .line {
+    margin: 20px 0;
+  }
+  
+  hr {
+    border: 1px solid #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .second-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .input-element, .dropdown-list {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+  
+    .last-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  }
+  
